@@ -103,6 +103,5 @@ This project is licensed under the [MIT License](LICENSE). You're welcome to use
 
 Hi, I'm **Soniya Saini**, an English Honours graduate and passionate self-taught **Data Analyst**. I'm on a journey to break into the tech industry with a focus on **SQL, Python, and BI tools**. I created this project to demonstrate real-world data engineering and analytics skills — and to keep learning, growing, and contributing.
 
-📫 Let’s connect on [LinkedIn](#) | 💻 See more at [GitHub Profile](#)
-
+📫 Let’s connect on [LinkedIn] :https://www.linkedin.com/in/soniyasaini01 | 💻 See more at [GitHub Profile]
 
