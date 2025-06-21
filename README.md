@@ -9,7 +9,7 @@ This project showcases my skills in building a modern data warehouse from scratc
 
 The project is structured using the **Medallion Architecture**, implementing three core layers — **Bronze**, **Silver**, and **Gold** — for data processing and analytics:
 
-1. **Bronze Layer** – Raw data directly ingested from CSV files (ERP and CRM systems) into a SQL Server database.
+1. **Bronze Layer** – Raw data directly ingested from CSV files into a SQL Server database.
 2. **Silver Layer** – Data is cleaned, transformed, and standardized to resolve quality issues.
 3. **Gold Layer** – Business-ready, analytics-optimized data modeled using a **Star Schema** for efficient querying and reporting.
 
@@ -49,7 +49,7 @@ The project is structured using the **Medallion Architecture**, implementing thr
 
 ### 📦 Data Engineering
 
-* Ingest and stage data from raw CSV files (ERP + CRM)
+* Ingest and stage data from raw CSV files (CRM + Sales + opportunities)
 * Cleanse and unify data for consistent structure
 * Integrate sources into a centralized data warehouse
 * Apply naming conventions and documentation standards
@@ -70,14 +70,12 @@ The project is structured using the **Medallion Architecture**, implementing thr
 ```
 data-warehouse-project/
 │
-├── datasets/                           # Raw ERP & CRM datasets
+├── datasets/                           # Raw datasets
 ├── docs/                               # Project documentation (architecture, schemas, etc.)
-│   ├── etl.drawio
 │   ├── data_architecture.drawio
 │   ├── data_catalog.md
 │   ├── data_flow.drawio
 │   ├── data_models.drawio
-│   ├── naming-conventions.md
 │
 ├── scripts/                            # SQL scripts for ETL process
 │   ├── bronze/                         # Extract & Load
