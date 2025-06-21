@@ -22,29 +22,35 @@ IF OBJECT_ID('gold.dim_info', 'V') IS NOT NULL
     DROP VIEW gold.dim_info;
 GO
 
-CREATE VIEW gold.dim_info AS
-SELECT
-    a.account,
-    a.sector,
-    a.year_established,
-    a.revenue,
-    a.employees,
-    a.office_location,
-    a.subsidiary_of,
-    p.product,
-    p.series,
-    p.sales_price,
-    s.sales_agent,
-    s.manager,
-    s.regional_office
-FROM silver.accounts a
-INNER JOIN silver.sales_pipeline sp
-    ON a.account = sp.account
-INNER JOIN silver.products p
-    ON sp.product = p.product
-INNER JOIN silver.sales_teams s
-    ON sp.sales_agent = s.sales_agent;
-GO
+CREATE VIEW silver.dim_full AS
+WITH unique_combinations AS (
+    SELECT DISTINCT
+        a.account,
+        a.sector,
+        a.year_established,
+        a.revenue,
+        a.employees,
+        a.office_location,
+        a.subsidiary_of,
+        p.product,
+        p.series,
+        p.sales_price,
+        s.sales_agent,
+        s.manager,
+        s.regional_office
+    FROM silver.accounts a
+    INNER JOIN silver.sales_pipeline sp
+        ON a.account = sp.account
+    INNER JOIN silver.products p
+        ON sp.product = p.product
+    INNER JOIN silver.sales_teams s
+        ON sp.sales_agent = s.sales_agent
+)
+SELECT 
+    ROW_NUMBER() OVER (ORDER BY account, product, sales_agent) AS dim_id,
+    *
+FROM unique_combinations;
+
 
 -- =============================================================================
 -- Create Fact Table: gold.fact_sales
