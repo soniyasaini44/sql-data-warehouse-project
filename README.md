@@ -1,11 +1,11 @@
-**📊 Data Warehouse and Analytics Project**
+** Data Warehouse and Analytics Project**
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 This project showcases my skills in building a modern data warehouse from scratch and generating actionable business insights using SQL. It is designed as a portfolio project to demonstrate my capabilities as a **fresher data analyst** with a strong focus on **ETL, data modeling, and analytics**.
 
 ---
 
-## 🏗️ Data Architecture: Medallion Design
+##  Data Architecture: Medallion Design
 
 The project is structured using the **Medallion Architecture**, implementing three core layers — **Bronze**, **Silver**, and **Gold** — for data processing and analytics:
 
@@ -15,16 +15,16 @@ The project is structured using the **Medallion Architecture**, implementing thr
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
-### ✅ What This Project Covers:
+###  What This Project Covers:
 
-* 🔧 **Data Architecture** – Implemented using Medallion architecture
-* 🔁 **ETL Pipelines** – Built using SQL for end-to-end data flow
-* 🧱 **Data Modeling** – Star schema with fact and dimension tables
-* 📈 **Analytics** – SQL-based business intelligence and insights
+*  **Data Architecture** – Implemented using Medallion architecture
+*  **ETL Pipelines** – Built using SQL for end-to-end data flow
+*  **Data Modeling** – Star schema with fact and dimension tables
+*  **Analytics** – SQL-based business intelligence and insights
 
-🎯 **Skills Showcased**:
+ **Skills Showcased**:
 
 * SQL for Data Warehousing and Analysis
 * Data Engineering Fundamentals
@@ -34,7 +34,7 @@ The project is structured using the **Medallion Architecture**, implementing thr
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 * **SQL Server Express** – Database platform
 * **SQL Server Management Studio (SSMS)** – SQL GUI tool
@@ -45,16 +45,16 @@ The project is structured using the **Medallion Architecture**, implementing thr
 
 ---
 
-## 🚀 Project Goals
+##  Project Goals
 
-### 📦 Data Engineering
+###  Data Engineering
 
 * Ingest and stage data from raw CSV files (CRM + Sales + opportunities)
 * Cleanse and unify data for consistent structure
 * Integrate sources into a centralized data warehouse
 * Apply naming conventions and documentation standards
 
-### 📊 Data Analytics
+###  Data Analytics
 
 * Build SQL queries to analyze:
 
@@ -65,7 +65,7 @@ The project is structured using the **Medallion Architecture**, implementing thr
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 data-warehouse-project/
@@ -91,13 +91,13 @@ data-warehouse-project/
 
 ---
 
-## 🛡️ License
+##  License
 
 This project is licensed under the [MIT License](LICENSE). You're welcome to use and build on it with proper credit.
 
 ---
 
-## 🌟 About Me
+##  About Me
 
 Hi, I'm **Soniya Saini**, an English Honours graduate and passionate self-taught **Data Analyst**. I'm on a journey to break into the tech industry with a focus on **SQL, Python, and BI tools**. I created this project to demonstrate real-world data engineering and analytics skills — and to keep learning, growing, and contributing.
 
