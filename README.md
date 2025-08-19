@@ -1,6 +1,6 @@
 ** Data Warehouse and Analytics Project**
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
+Welcome to the **Data Warehouse and Analytics Project** repository! 
 This project showcases my skills in building a modern data warehouse from scratch and generating actionable business insights using SQL. It is designed as a portfolio project to demonstrate my capabilities as a **fresher data analyst** with a strong focus on **ETL, data modeling, and analytics**.
 
 ---
